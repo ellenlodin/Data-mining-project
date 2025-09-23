@@ -1,0 +1,4 @@
+Indicators = {Under-five mortality rate (probability of dying by age 5 per 1000 live births): "MDG_0000000007",
+Concentrations of fine particulate matter: "SDGPM25",
+Household and ambient air pollution attributable DALYs: "AIR_60", 
+Household and ambient air pollution attributable DALYs (per 100 000 capita, age-standardized): "AIR_62"}

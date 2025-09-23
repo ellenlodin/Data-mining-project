@@ -18,7 +18,7 @@ if __name__ == "__main__":
     os.makedirs("data/row", exist_ok=True)
 
     selected_indicators = [
-        "MDG_0000000007", "who_AIR_60" # Exempel: HIV prevalence among adults 15–49          # Exempel: Suicide mortality rate
+        "MDG_0000000007", "SDGPM25", "AIR_60", "AIR_62"  # Exempel: HIV prevalence among adults 15–49          # Exempel: Suicide mortality rate
     ]
 
     for code in selected_indicators:

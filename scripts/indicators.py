@@ -14,7 +14,7 @@ def get_all_indicators():
     return df
 
 if __name__ == "__main__":
-    os.makedirs("data/row", exist_ok=True)
+    os.makedirs("data/raw", exist_ok=True)
 
     indicators = get_all_indicators()
     filepath = os.path.join("data", "raw", "who_all_indicators.csv")
