@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     # Lägg in indikator-koder du vill hämta här:
     selected_indicators = [
-        "MDG_0000000007", "who_AIR_60" # Exempel: HIV prevalence among adults 15–49          # Exempel: Suicide mortality rate
+        "WSH_WATER_BASIC" # Exempel: HIV prevalence among adults 15–49          # Exempel: Suicide mortality rate
     ]
 
     for code in selected_indicators:

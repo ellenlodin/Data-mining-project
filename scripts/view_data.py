@@ -13,7 +13,7 @@ def view_data(filename, n=5):
 
 if __name__ == "__main__":
     # 👉 Ändra detta till den fil du vill inspektera
-    file_to_view = "who_WHS10_4.csv"
+    file_to_view = "who_AIR_62.csv"
     
     # Antal rader att visa (default = 5)
     view_data(file_to_view, n=10)
