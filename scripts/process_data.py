@@ -13,7 +13,7 @@ def view_data(filename, n=5):
     
     # Behåll bara de viktiga kolumnerna
     important_cols = [
-        "SpatialDim", "ParentLocation", 
+        "SpatialDim", "ParentLocationCode", 
         "TimeDim", "Dim1", "NumericValue", "Low", "High"
     ]
     df = df[important_cols]
