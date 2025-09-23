@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 def view_data(filename, n=5):
-    filepath = os.path.join("data", "row", filename)
+    filepath = os.path.join("data", "raw", filename)
     if not os.path.exists(filepath):
         print(f"Filen {filepath} finns inte. Kontrollera namnet.")
         return
