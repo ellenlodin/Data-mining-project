@@ -14,8 +14,8 @@ def get_all_indicators():
     return df
 
 if __name__ == "__main__":
-    # Skapa mappen data/row om den inte finns
-    os.makedirs("data/row", exist_ok=True)
+    # Skapa mappen data/raw om den inte finns
+    os.makedirs("data/raw", exist_ok=True)
 
     indicators = get_all_indicators()
     filepath = os.path.join("data", "raw", "who_all_indicators.csv")

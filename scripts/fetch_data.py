@@ -15,7 +15,7 @@ def fetch_indicator_data(indicator_code):
     return df
 
 if __name__ == "__main__":
-    os.makedirs("data/row", exist_ok=True)
+    os.makedirs("data/raw", exist_ok=True)
 
     # Lägg in indikator-koder du vill hämta här:
     selected_indicators = [
