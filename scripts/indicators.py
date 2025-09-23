@@ -14,7 +14,6 @@ def get_all_indicators():
     return df
 
 if __name__ == "__main__":
-    # Skapa mappen data/row om den inte finns
     os.makedirs("data/row", exist_ok=True)
 
     indicators = get_all_indicators()

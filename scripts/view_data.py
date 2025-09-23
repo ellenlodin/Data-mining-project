@@ -12,7 +12,7 @@ def view_data(filename, n=5):
     print(df.head(n))
 
 if __name__ == "__main__":
-    # 👉 Ändra detta till den fil du vill inspektera
+    # Ändra detta till den fil du vill inspektera
     file_to_view = "who_WHS10_4.csv"
     
     # Antal rader att visa (default = 5)

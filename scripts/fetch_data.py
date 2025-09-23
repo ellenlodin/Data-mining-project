@@ -17,7 +17,6 @@ def fetch_indicator_data(indicator_code):
 if __name__ == "__main__":
     os.makedirs("data/row", exist_ok=True)
 
-    # Lägg in indikator-koder du vill hämta här:
     selected_indicators = [
         "MDG_0000000007", "who_AIR_60" # Exempel: HIV prevalence among adults 15–49          # Exempel: Suicide mortality rate
     ]
